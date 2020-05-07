@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v3.1": {
       "OnlineShop/1.0.0": {
         "dependencies": {
-          "Font.Awesome": "5.13.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.1",
           "Microsoft.AspNetCore.Identity.UI": "3.1.1",
@@ -305,7 +304,6 @@
           "OnlineShop.dll": {}
         }
       },
-      "Font.Awesome/5.13.0": {},
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "2.2.0",
@@ -4185,13 +4183,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Font.Awesome/5.13.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bb+aWUhtojzkqmgPh1HfuOWuggnbhH5Y2PPYfTGN11w0Z4eU8/ZwauLlOX/kAg5/Vch/5T/l84VeaWjMU2aclg==",
-      "path": "font.awesome/5.13.0",
-      "hashPath": "font.awesome.5.13.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",
