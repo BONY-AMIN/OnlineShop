@@ -228,3 +228,14 @@ D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\P
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Create.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Index.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PartialView.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Edit.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Details.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Locout.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Active.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Delete.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Index.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Create.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Edit.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Delete.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Assign.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\AssignUserRole.cshtml.g.cs

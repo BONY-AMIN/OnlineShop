@@ -36,7 +36,7 @@ namespace OnlineShop.Areas.Customer.Controllers
             var result = await userManager.CreateAsync(user,user.PasswordHash);
             if (result.Succeeded)
             {
-                TempData["Save"] = "User has been created successfully .";
+                TempData["save"] = "User has been created successfully .";
                 return RedirectToAction(nameof(Index));
 
             }
@@ -46,5 +46,137 @@ namespace OnlineShop.Areas.Customer.Controllers
             }
             return View();
         }
+
+        public async Task<IActionResult> Edit(string id)
+        {
+            var user = db.ApplicationUsers.FirstOrDefault(c => c.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(ApplicationUser user)
+        {
+            var userInfo = db.ApplicationUsers.FirstOrDefault(c => c.Id == user.Id);
+            if (userInfo == null)
+            {
+                return NotFound();
+            }
+            userInfo.FirstName = user.FirstName;
+            userInfo.LastName = user.LastName;
+            var result = await userManager.UpdateAsync(userInfo);
+            if (result.Succeeded)
+            {
+                TempData["save"] = "User has been updated successfully";
+                return RedirectToAction(nameof(Index));
+            }
+            return View(userInfo);
+        }
+
+        public async Task<IActionResult> Details(string id)
+        {
+            var user = db.ApplicationUsers.FirstOrDefault(c => c.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+        public async Task<IActionResult> Locout(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var user = db.ApplicationUsers.FirstOrDefault(c => c.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Locout(ApplicationUser user)
+        {
+            var userInfo = db.ApplicationUsers.FirstOrDefault(c => c.Id == user.Id);
+            if (userInfo == null)
+            {
+                return NotFound();
+
+            }
+            userInfo.LockoutEnd = DateTime.Now.AddYears(100);
+            int rowAffected = db.SaveChanges();
+            if (rowAffected > 0)
+            {
+                TempData["save"] = "User has been lockout successfully";
+                return RedirectToAction(nameof(Index));
+            }
+            return View(userInfo);
+        }
+
+        public async Task<IActionResult> Active(string id)
+        {
+            var user = db.ApplicationUsers.FirstOrDefault(c => c.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Active(ApplicationUser user)
+        {
+            var userInfo = db.ApplicationUsers.FirstOrDefault(c => c.Id == user.Id);
+            if (userInfo == null)
+            {
+                return NotFound();
+
+            }
+            userInfo.LockoutEnd = DateTime.Now.AddDays(-1);
+            int rowAffected = db.SaveChanges();
+            if (rowAffected > 0)
+            {
+                TempData["save"] = "User has been active successfully";
+                return RedirectToAction(nameof(Index));
+            }
+            return View(userInfo);
+        }
+
+        public async Task<IActionResult> Delete(string id)
+        {
+            var user = db.ApplicationUsers.FirstOrDefault(c => c.Id == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(ApplicationUser user)
+        {
+            var userInfo = db.ApplicationUsers.FirstOrDefault(c => c.Id == user.Id);
+            if (userInfo == null)
+            {
+                return NotFound();
+
+            }
+            db.ApplicationUsers.Remove(userInfo);
+            int rowAffected = db.SaveChanges();
+            if (rowAffected > 0)
+            {
+                TempData["save"] = "User has been delete successfully";
+                return RedirectToAction(nameof(Index));
+            }
+            return View(userInfo);
+        }
+
+
     }
 }
