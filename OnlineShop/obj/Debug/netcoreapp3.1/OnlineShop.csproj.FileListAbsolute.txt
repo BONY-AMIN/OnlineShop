@@ -225,3 +225,6 @@ D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\P
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Create.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\User\Index.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PartialView.cshtml.g.cs

@@ -69,7 +69,7 @@ namespace OnlineShop
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers().RequireAuthorization();
+                //endpoints.MapControllers().RequireAuthorization();
                 endpoints.MapControllerRoute(
                 name: "MyArea",
                 pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
