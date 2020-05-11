@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
+            "UmbracoCms.Core": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
             "X.PagedList.Mvc.Core": {
               "target": "Package",
               "version": "[8.0.7, )"

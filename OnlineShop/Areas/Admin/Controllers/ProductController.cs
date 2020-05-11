@@ -17,9 +17,9 @@ namespace OnlineShop.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private ApplicationDbContext _db;
-        private IHostingEnvironment  _he;
+        private IWebHostEnvironment  _he;
 
-        public ProductController(ApplicationDbContext db, IHostingEnvironment he)
+        public ProductController(ApplicationDbContext db, IWebHostEnvironment he)
         {
             _db = db;
             _he = he;

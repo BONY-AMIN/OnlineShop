@@ -46,7 +46,6 @@ D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\runtimes\win-x86\nativ
 D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.csprojAssemblyReference.cache
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\staticwebassets\OnlineShop.StaticWebAssets.Manifest.cache
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\staticwebassets\OnlineShop.StaticWebAssets.xml
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.RazorAssemblyInfo.cache
@@ -184,8 +183,6 @@ D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\X.PagedList.dll
 D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
 D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
 D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
-D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.MvcApplicationPartsAssemblyInfo.cs
-D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.MvcApplicationPartsAssemblyInfo.cache
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
@@ -239,3 +236,7 @@ D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\View
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Delete.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\Assign.cshtml.g.cs
 D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Role\AssignUserRole.cshtml.g.cs
+D:\BonyAmin\OnlineShop\OnlineShop\bin\Debug\netcoreapp3.1\Umbraco.Core.dll
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.MvcApplicationPartsAssemblyInfo.cs
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.MvcApplicationPartsAssemblyInfo.cache
+D:\BonyAmin\OnlineShop\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.csprojAssemblyReference.cache

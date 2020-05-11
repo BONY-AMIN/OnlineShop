@@ -30,6 +30,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.1",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.2",
+          "UmbracoCms.Core": "8.6.1",
           "X.PagedList.Mvc.Core": "8.0.7",
           "Microsoft.AspNetCore.Antiforgery.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
@@ -2542,6 +2543,17 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "UmbracoCms.Core/8.6.1": {
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.1.0"
+          }
+        },
+        "compile": {
+          "lib/net472/Umbraco.Core.dll": {}
         }
       },
       "X.PagedList/8.0.7": {
@@ -5569,6 +5581,13 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "UmbracoCms.Core/8.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-av1tAJvXk0uN2X4ObHYtvknlGxKS6EsWHMF4kJTN9LriERjwi1UGlfPJhmdi+HViD/7VDZfL9O+suJs01JsQmw==",
+      "path": "umbracocms.core/8.6.1",
+      "hashPath": "umbracocms.core.8.6.1.nupkg.sha512"
     },
     "X.PagedList/8.0.7": {
       "type": "package",

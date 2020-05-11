@@ -3147,6 +3147,15 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "UmbracoCms.Core/8.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Umbraco.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {}
+        }
+      },
       "X.PagedList/8.0.7": {
         "type": "package",
         "compile": {
@@ -9733,6 +9742,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "UmbracoCms.Core/8.6.1": {
+      "sha512": "av1tAJvXk0uN2X4ObHYtvknlGxKS6EsWHMF4kJTN9LriERjwi1UGlfPJhmdi+HViD/7VDZfL9O+suJs01JsQmw==",
+      "type": "package",
+      "path": "umbracocms.core/8.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Umbraco.Core.dll",
+        "lib/net472/Umbraco.Core.pdb",
+        "lib/net472/Umbraco.Core.xml",
+        "umbracocms.core.8.6.1.nupkg.sha512",
+        "umbracocms.core.nuspec"
+      ]
+    },
     "X.PagedList/8.0.7": {
       "sha512": "eX1Wd5MrIehx9RaFWketo1LrZJDsEcJYx06LBQnaMNZX+CQgUS4A0z7GeaotkSZo6Cau6IGllj26XPpO8Lns4Q==",
       "type": "package",
@@ -9778,6 +9801,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2",
+      "UmbracoCms.Core >= 8.6.1",
       "X.PagedList.Mvc.Core >= 8.0.7"
     ]
   },
@@ -9846,6 +9870,10 @@
             "target": "Package",
             "version": "[3.1.2, )"
           },
+          "UmbracoCms.Core": {
+            "target": "Package",
+            "version": "[8.6.1, )"
+          },
           "X.PagedList.Mvc.Core": {
             "target": "Package",
             "version": "[8.0.7, )"
@@ -9872,5 +9900,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UmbracoCms.Core 8.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "UmbracoCms.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
